@@ -1,0 +1,18 @@
+{
+  "name": "kerrigan-syndicate",
+  "version": "1.0.0",
+  "description": "Le bot discord pour k3rrigan syndicate",
+  "license": "ISC",
+  "author": "poulpe Glacé alease donquiecongue",
+  "type": "module",
+  "main": "index.cjs",
+  "scripts": {
+    "test": "node index.cjs"
+  },
+  "dependencies": {
+    "discord.js": "^14.21.0",
+    "fs": "^0.0.1-security",
+    "marked": "^16.1.1",
+    "path": "^0.12.7"
+  }
+}
