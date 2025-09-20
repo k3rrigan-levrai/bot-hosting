@@ -4,6 +4,10 @@ const fs=require('fs')
 const path=require('path')
 const marked=require('marked')
 const token=process.env.TOKEN
+const app=require('express')()
+
+app.get('/', (req, res) => res.send('Bot actif'));
+app.listen(443, () => console.log(`Serveur écoutant sur le port 443`));
 
 const client=new Client({
 	intents: [
